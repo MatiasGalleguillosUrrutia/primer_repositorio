@@ -612,7 +612,9 @@ textarea{
     .navbar-brand{
         display:block ;
     }
-
+    .navbar-icon{
+        display:none
+    }
 
     .video_fondo {
         
@@ -856,6 +858,10 @@ textarea{
         display:block ;
     }
 
+    .navbar-icon{
+        display:none
+    }
+
 
     .video_fondo {
         
@@ -981,6 +987,10 @@ textarea{
         display:block ;
     }
 
+    .navbar-icon{
+        display:none
+    }
+    
     #hero{
         height:600px;
     }
