@@ -80,14 +80,14 @@ button:hover{
 .video-container {
     position:relative;
     width: 100%;
-    background-color: rgb(0, 0, 83);
+    background-color: #09152B;
     height:100%;
     overflow: hidden;
     
     
 }
 
-.video_fondo {
+/* .video_fondo {
     position:relative;
     width: 100%;
     height: 100%;
@@ -95,12 +95,15 @@ button:hover{
     transform: scale(1.8, 1.8);
     top:0px;
     right:50px
-}
+} */
+
+
 .content{
     position:absolute;
-    width:50%;
+    width:100%;
     right:0;
-    bottom: 20px;
+    bottom:60px;
+    align-content: center;
     text-align: center;
 }
 
@@ -110,6 +113,10 @@ button:hover{
     text-align: center;
     /* border: 1px solid white */
     
+}
+
+.content h1 span{
+    font-size: 70px;
 }
 
 .content button{
@@ -616,16 +623,6 @@ textarea{
         display:none
     }
 
-    .video_fondo {
-        
-        width: 100%;
-        top: -20px;
-        height: auto;
-        transform: scale(2, 2);
-        left:10px
-
-    }
-
     .content{
         text-align: end;
     }
@@ -1011,15 +1008,20 @@ textarea{
 
     }
 
+    .content{
+        position:absolute;
+        right:100px
+    }
+
     .content h1{
         color:rgb(255, 255, 255);
-        font-size: 50px;
+        font-size: 60px;
         font-weight: bold;
     }
 
     .content h1 span{
         color:rgb(255, 255, 255);
-        font-size: 100px;
+        font-size: 130px;
     }
 
     .content button{
@@ -1249,88 +1251,6 @@ textarea{
         justify-content: center;
         align-items: center;
     }
-
-
-
-    /*=====================================================================*/
-
-    /* #nuestros-servicios{
-        display:flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align:center;
-        background-color:#a3a3a3;
-        height:600px;
-        color:rgb(0, 0, 0);
-        
-    }
-    #nuestros-servicios h2{
-        color:white;
-        margin-top:30px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    #nuestros-servicios .container{
-        display:flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin-top:40PX
-    }
-
-    #nuestros-servicios .container-nuestroproceso-circular{
-        display:flex;
-        flex-direction: column;
-        margin:20px;
-        width:300px;
-        height:300px;
-        justify-content: center;
-        align-items: center;
-        margin:50px;
-        border:2px solid rgb(136, 2, 96);
-        
-        
-    }
-
-    #nuestros-servicios .container-nuestroproceso-circular i{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:50%;
-        height:40%;
-        font-size: 50px;
-        color:rgb(0, 0, 0)
-    }
-
-    #nuestros-servicios .container-nuestroproceso-circular p{
-        font-size: 18px;
-        color:rgb(0, 0, 0);
-        max-width: 250px;
-    }
-
-    #nuestros-servicios .container-nuestroproceso-circular button{
-        width:80%;
-        font-size: 20px;
-    }
-
-    #nuestros-servicios .icon-flecha{
-        font-size: 50px;
-        color:rgb(0, 0, 0);
-    }
-
-    #nuestros-servicios .material-symbols-outlined{
-        font-size: 50px;
-        color:rgb(2, 2, 2);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width:50%;
-        height:40%;
-        font-size: 50px;
-        
-    } */
-
 
     /*Nuestros Clientes*/
 
